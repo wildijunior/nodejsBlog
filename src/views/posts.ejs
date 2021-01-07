@@ -1,0 +1,24 @@
+<%- include("layouts/header"); -%>
+
+    <section class="container">
+        <h1 class="text-center">Posts</h1>
+
+        <% if (posts.length> 0) { %>
+
+            <% posts.forEach(post=> { %>
+                <h4>
+                    <%= post.titlePost %>
+                </h4>
+                <p>
+                    <%= post.bodyPost%>
+                       
+                </p>
+                <% }) %>
+
+                    <% } else { %>
+                        <p>No posts yet.</p>
+
+                        <% } %>
+    </section>
+
+    <%- include("layouts/footer"); -%>

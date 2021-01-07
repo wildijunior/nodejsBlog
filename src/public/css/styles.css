@@ -1,0 +1,69 @@
+html,
+body {
+  background-color: #393e46;
+  color: #eee;
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+form {
+  color: #393e46;
+}
+
+nav {
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+
+.card {
+  padding: 20px;
+  color: #393e46;
+  width: 50%;
+  background-color: #ffd369 !important;
+  /* align center */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+a,
+#post-detail {
+  color: #ffd369;
+}
+
+#post-detail:hover{
+  color: gray;
+
+}
+
+a,
+.card {
+  text-decoration: none;
+  color: #393e46;
+  transition: 1s color;
+}
+
+a:hover {
+  color: gray;
+  transition: 1s color;
+}
+
+.bg-dark {
+  background-color: #ffd369 !important;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #393e46 !important;
+  transition: 1s color;
+}
+
+.nav-link:hover {
+  color: #c70039 !important;
+  transition: 1s color;
+}
