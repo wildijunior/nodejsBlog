@@ -1,0 +1,24 @@
+<%- include("layouts/header"); -%>
+
+    <section class="container">
+        <h1>Compose</h1>
+
+        <form action="/compose" method="post">
+            <div class="form-floating mb-3">
+                <input name="titlePost" type="text" class="form-control" id="floatingInput" placeholder="Title">
+                <label for="floatingInput">Title</label>
+            </div>
+
+            <div class="form-floating">
+                <textarea name="bodyPost" class="form-control" placeholder="Write your post" id="floatingTextarea2"
+                    style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Post</label>
+            </div>
+            <br />
+            <button type="submit" class="btn btn-success">Publish</button>
+        </form>
+
+
+    </section>
+
+    <%- include("layouts/footer"); -%>
