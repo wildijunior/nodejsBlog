@@ -10,8 +10,8 @@
                     <%= post.titlePost %>
                 </h4>
                 <p>
-                    <%= post.bodyPost.substring(0,100) %>
-                        <a id="post-detail" href="/posts/<%= post.id %> ">Read More</a>
+                    <%= post.bodyPost.substring(0,100) + " ..." %>
+                        <a id="post-detail" href="/posts/<%= post.id %>">Read More</a>
                 </p>
                 <% }) %>
 
